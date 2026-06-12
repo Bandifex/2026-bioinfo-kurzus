@@ -1,5 +1,10 @@
 **/src/
 
+**/refs/
+**/bam/
+**/reads/
+**/fastq/
+
 *.bam
 *.bai
 *.fastq

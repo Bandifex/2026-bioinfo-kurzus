@@ -36,7 +36,6 @@ help:
 	@echo "Available targets:"
 	@echo "  download   - Download the reference genome FASTA and GFF files."
 	@echo "  fastq      - Download the FASTQ files for the specified SRR accession."
-	@echo "  index      - Index the reference genome using BWA."
 	@echo "  align      - Align the FASTQ reads to the reference genome and create a sorted BAM file."
 	@echo "  clear      - Remove all downloaded and generated files (refs, fastq, bam)."
 
@@ -66,9 +65,5 @@ vcf:
 clear:
 	rm -rf refs fastq bam
 
-multirun:
-	make SRR=SRR1553425 fastq align vcf
-	make SRR=SRR1553440 fastq align vcf
-	make SRR=SRR1613378 fastq align vcf
 
 .PHONY: download fastq index align  vcf

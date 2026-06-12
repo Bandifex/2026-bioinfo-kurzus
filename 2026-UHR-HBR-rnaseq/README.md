@@ -73,3 +73,5 @@ Use the
 make to_csv add_names
 ```
 With this program used in the `csv/counts.csv` will 
+
+TODO finish the statistics 

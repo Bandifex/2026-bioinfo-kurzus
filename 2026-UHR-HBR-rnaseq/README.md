@@ -74,4 +74,16 @@ make to_csv add_names
 ```
 With this program used in the `csv/counts.csv` will 
 
-TODO finish the statistics 
+The design program makes a `design.csv` which will be needed to use the following programs. 
+```bash
+make design
+```
+Generate the differential expression.
+```bash
+make edger
+```
+
+Generate Principal Component Analysis (PCA) and a heatmap of the results
+```bash
+make pca heatmap
+```

@@ -1,4 +1,4 @@
-# Usage
+# Installation
 
 For both projects you will need the `bioinfo` environment active.
 You may use the follwoing bash line in a UNIX terminal in order to install the enivronment.˛This code will make a new folder in you working directory called bioinfo. 
@@ -11,7 +11,8 @@ With the shorcut `bioinfo` in your terminal you can activate the environment.
 With this active you may follow with the following chapters. 
 If it's not working please refer to [the original Biostar handbook's webpage](https://www.biostarhandbook.com/courses/2026/elixir/setup/bioinfo-env/#activating-the-environment) (You may need log in credentials)
 
-## 2026-ebola-surveillance
+
+# Usage
 
 Use the Makefile to do the ebola surveillance.
 Using the line `make` in you terminal you will see:
